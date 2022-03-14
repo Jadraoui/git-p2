@@ -1,5 +1,6 @@
 public class Animal {
 
+    //comment on git functionality
     public static String getBirdSound(){
         return "tweet!!";
     }
@@ -19,7 +20,6 @@ public class Animal {
             output = getChatSound();
         else
             output = getDefaultSound();
-
         System.out.println(output);
 
     }

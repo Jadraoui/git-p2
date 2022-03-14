@@ -4,7 +4,7 @@
     <property name="target" location="target" />
     <property name="build"  location="bin" />
 
-    <target name="main" depends="init,compile,compress" />
+    <target name="main" depends="init,compile" />
 
     <target name="init">
         <mkdir dir="${target}" />

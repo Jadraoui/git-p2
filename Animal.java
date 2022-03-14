@@ -1,18 +1,21 @@
 public class Animal {
 
-    public String getBirdSound(){
-        return "tweet!!";
-    }
-    public String getDefaultSound(){
+    public static String getChatSound(){
         return "meaaw!!";
+    }
+    public static String getDefaultSound(){
+        return "hello!!";
     }
 
     public static void main(String[] args){
         String firstArgument = args[0];
+        String output = "";
         if(firstArgument.equalsIgnoreCase("chat"))
-            System.out.println("mieww!!");
+            output = getChatSound();
         else
-            System.out.println("tweet!!");
+            output = getDefaultSound();
+
+        System.out.println(output);
 
     }
 }

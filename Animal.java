@@ -5,7 +5,6 @@ public class Animal {
     }
     public static String getChatSound(){
         return "meaaw!!";
-
     }
     public static String getDefaultSound(){
         return "hello!!";

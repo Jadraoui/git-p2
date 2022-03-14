@@ -1,7 +1,7 @@
 public class Animal {
 
-    public static String getChatSound(){
-        return "meaaw!!";
+    public static String getBirdSound(){
+        return "Tweet!!";
     }
     public static String getDefaultSound(){
         return "hello!!";
@@ -10,8 +10,8 @@ public class Animal {
     public static void main(String[] args){
         String firstArgument = args[0];
         String output = "";
-        if(firstArgument.equalsIgnoreCase("chat"))
-            output = getChatSound();
+        if(firstArgument.equalsIgnoreCase("bird"))
+            output = getBirdSound();
         else
             output = getDefaultSound();
 

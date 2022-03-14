@@ -21,7 +21,7 @@
     </target>
 
     <target name="compress" depends="compile">
-        <java  jar="${build/Project.jar}" fork="true" />
+        <jar  basedir="." jarfile="Project.jar" includes="*.class" />
     </target>
 
 

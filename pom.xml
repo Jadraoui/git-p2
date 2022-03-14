@@ -1,5 +1,6 @@
 <project>
-    <modelVersion>3.8.5</modelVersion>
+    <version>1.0</version>
+    <modelVersion>4.0.0</modelVersion>
     <groupId>com.sqli</groupId>
     <artifactId>mon-appli</artifactId>
 
